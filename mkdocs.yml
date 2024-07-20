@@ -3,6 +3,5 @@ nav:
   - Project Information: projectInfo.md
   - Getting started: start.md 
   - REST API Reference: api.md
-  - Features: features.md
   - Architecture: architecture.md
   - Erd: erd.md

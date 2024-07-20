@@ -1,17 +1,36 @@
-# Welcome to MkDocs
+## Welcome to Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Version: V0.1**
 
-## Commands
+This allows you to customize your own shoppingmall application.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Custom-Shoppingmall-Service provides the following functionality:
 
-## Project layout
+Headless Project consists of the following components:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Spring boot Java / Spring boot backend](https://github.com/jhmin99/custom-shoppingmall-service) 
+React JS administration web application
+React JS front end application
+
+### Admin Page
+- **User Management**
+- **Category Management**
+- **Item Management**
+- **Coupon Management**
+- **Notice Management**
+- **Review Management**
+- **Inquiry Management**
+
+### User Page
+- **Registration**
+- **Login / Logout**
+- **Mypage**
+- **Notice**
+- **Coupon**
+- **Cart**
+- **WishList**
+- **Review**
+- **Inquiry**
+- **Order**
+- **Item**
+
