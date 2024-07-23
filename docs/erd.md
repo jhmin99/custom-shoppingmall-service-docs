@@ -2,4 +2,4 @@
 
 **Version: V0.1**
 
-![image](https://github.com/user-attachments/assets/836a412e-4250-4db4-a6d0-18e2ee248966)
+![image](https://github.com/user-attachments/assets/f6a34967-1217-426f-a3c2-4979f2fd0538)
