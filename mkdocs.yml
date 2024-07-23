@@ -3,4 +3,4 @@ nav:
   - Getting started: start.md 
   - REST API Reference: api.md
   - Architecture: architecture.md
-  - Erd: erd.md
+  - ER Diagram: erd.md
