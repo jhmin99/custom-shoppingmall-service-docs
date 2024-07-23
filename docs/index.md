@@ -8,9 +8,11 @@ Custom-Shoppingmall-Service provides the following functionality:
 
 Headless Project consists of the following components:
 
-[Spring boot Java / Spring boot backend](https://github.com/jhmin99/custom-shoppingmall-service)    
-React JS administration web application    
-React JS front end application   
+- [Spring boot Java / Spring boot backend](https://github.com/jhmin99/custom-shoppingmall-service)    
+
+- React JS administration web application    
+
+- React JS front end application   
 
 ### Admin Page
 - **User Management**
