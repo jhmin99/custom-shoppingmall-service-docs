@@ -1,5 +1,5 @@
 ## Welcome to Docs
-
+---
 **Version: V0.1**
 
 This allows you to customize your own shoppingmall application.
@@ -14,10 +14,30 @@ Headless Project consists of the following components:
 
 - React JS front end application   
 
-### Admin Page
+
+## Table of Contents
+---
+[1] [Admin Page](#admin-page)
+
+   - [SuperAdmin](#superadmin)
+
+   - [Admin](#admin)   
+
+[2] [User Page](#user-page)
+
+   - [User](#user)
+
+
+## **Admin Page**
+---
+### SuperAdmin
+- **Admin Management**
+    - Create, view, update, and delete admin accounts.
+
+### Admin 
 - **User Management**
     - View user accounts.
-    - Create, view, update, and delete admin accounts.
+    - View user details.
 - **Category Management**
     - Create, view, update product categories.
     - Ensure items are correctly categorized.
@@ -39,7 +59,9 @@ Headless Project consists of the following components:
     - Manage customer and product inquiries.
     - Track inquiry status and respond to user questions.
 
-### User Page
+## **User Page**
+---
+### User 
 - **Registration**
     - Create a new user account.
     - Set up user profile.
