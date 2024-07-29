@@ -17,18 +17,36 @@ Headless Project consists of the following components:
 
 ## Table of Contents
 ---
-[1] [Admin Page](#admin-page)
 
-   - [SuperAdmin](#superadmin)
+[1] [Authentication](#authentication) 
 
-   - [Admin](#admin)   
+[2] [SuperAdmin](#superadmin)
 
-[2] [User Page](#user-page)
+[3] [Admin](#admin)   
 
-   - [User](#user)
+[4] [User](#user)
 
+[5] [Public](#public)
 
-## **Admin Page**
+## **Authentication**
+---
+### Account Management
+- **Registration**
+    - Create a new user account.
+    - Set up user profile.
+- **Login / Logout**
+    - **Login**
+        - Access account by entering credentials (username and password).
+        - A secure authentication token (JWT) will be issued upon successful login.
+    - **Logout**
+        - Securely log out of account to protect information.
+        - Session will be cleared.
+### Token Management
+- **CSRF, Refresh Token**
+    - CSRF Token:
+        - Retrieve a CSRF token for the current session.
+    - Refresh Token:
+        - Obtain a new token using the refresh token.
 ---
 ### SuperAdmin
 - **Admin Management**
@@ -53,26 +71,18 @@ Headless Project consists of the following components:
     - Post, edit, and delete public notices.
     - Ensure important information is communicated to users.
 - **Review Management**
-    - View, and delete user reviews.
+    - Delete user reviews.
     - Respond to user feedback.
 - **Inquiry Management**
     - Manage customer and product inquiries.
     - Track inquiry status and respond to user questions.
+- **Order Detail Management**
+    - Retrieve User OrderDetails
 
-## **User Page**
+
 ---
 ### User 
-- **Registration**
-    - Create a new user account.
-    - Set up user profile.
-- **Login / Logout**
-    - Login:
-        - Access account by entering credentials (username and password).
-        - A secure authentication token (JWT) will be issued upon successful login.
-    - Logout:
-        - Securely log out of account to protect information.
-        - Session will be cleared.
-- **Mypage**
+- **UserDetail**
     - Manage personal information.
 - **Notice**
     - View important announcements and updates.
@@ -89,13 +99,35 @@ Headless Project consists of the following components:
     - Write and submit reviews for purchased items.
     - Edit or delete existing reviews.
 - **Inquiry**
-    - Submit inquiries about products or general customer service questions.
+    - Submit inquiries about items or general customer service questions.
     - Track the status of submitted inquiries.
 - **Order**
     - Place new orders and track existing order status.
     - View order details.
 - **Item**
-    - Browse and search for products.
-    - View detailed information and reviews for each product.
+    - Subscribe to item alerts
 
+### Public
+---
+- **Item**
+    - Browse and search for products
+        - Keyword based search
+        - Filtering (category, min/max price range, average review rating)
+    - View detailed information and reviews for each product
 
+- **Review**
+    - Retrieve reviews by rating for a specific item
+    - Retrieve latest reviews for a specific item
+    - Retrieve reviews by rating and latest for a specific item
+
+- **Inquiry**
+    - View unresolved inquiries
+        - Item inquiries
+        - Customer inquiries
+    - View resolved inquiries
+        - Item inquiries
+        - Customer inquiries
+    - View all inquiries
+        - Item inquiries
+        - Customer inquiries
+    - View inquiry details

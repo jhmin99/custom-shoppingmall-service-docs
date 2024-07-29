@@ -1,6 +1,8 @@
 site_name: Custom Shoppingmall Service Docs
+
 nav:
-  - Getting started: start.md 
+  - Getting started: start.md
   - REST API Reference: api.md
   - Architecture: architecture.md
   - ER Diagram: erd.md
+
