@@ -29,9 +29,8 @@ Headless Project consists of the following components:
 [5] [Public](#public)
 
 ---
-## **Authentication**
+## Authentication
 
-### Account Management
 - **Registration**
     - Create a new user account.
     - Set up user profile.
@@ -42,18 +41,17 @@ Headless Project consists of the following components:
     - **Logout**
         - Securely log out of account to protect information.
         - Session will be cleared.
-### Token Management
 - **CSRF, Refresh Token**
     - CSRF Token:
         - Retrieve a CSRF token for the current session.
     - Refresh Token:
         - Obtain a new token using the refresh token.
 ---
-### SuperAdmin
+## SuperAdmin
 - **Admin Management**
     - Create, view, update, and delete admin accounts.
 ---
-### Admin 
+## Admin 
 - **User Management**
     - View user accounts.
     - View user details.
@@ -79,10 +77,8 @@ Headless Project consists of the following components:
     - Track inquiry status and respond to user questions.
 - **Order Detail Management**
     - Retrieve User OrderDetails
-
-
 ---
-### User 
+## User 
 - **UserDetail**
     - Manage personal information.
 - **Notice**
@@ -107,20 +103,17 @@ Headless Project consists of the following components:
     - View order details.
 - **Item**
     - Subscribe to item alerts
-
 ---
-### Public
+## Public
 - **Item**
     - Browse and search for products
         - Keyword based search
         - Filtering (category, min/max price range, average review rating)
     - View detailed information and reviews for each product
-
 - **Review**
     - Retrieve reviews by rating for a specific item
     - Retrieve latest reviews for a specific item
     - Retrieve reviews by rating and latest for a specific item
-
 - **Inquiry**
     - View unresolved inquiries
         - Item inquiries
