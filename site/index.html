@@ -82,12 +82,7 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="2"><a href="#admin-page" class="nav-link">Admin Page</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-bs-level="2"><a href="#user-page" class="nav-link">User Page</a>
+            <li class="nav-item" data-bs-level="2"><a href="#authentication" class="nav-link">Authentication</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -115,20 +110,48 @@
 </ul>
 <h2 id="table-of-contents">Table of Contents</h2>
 <hr />
-<p>[1] <a href="#admin-page">Admin Page</a></p>
+<p>[1] <a href="#authentication">Authentication</a> </p>
+<p>[2] <a href="#superadmin">SuperAdmin</a></p>
+<p>[3] <a href="#admin">Admin</a>   </p>
+<p>[4] <a href="#user">User</a></p>
+<p>[5] <a href="#public">Public</a></p>
+<h2 id="authentication"><strong>Authentication</strong></h2>
+<hr />
+<h3 id="account-management">Account Management</h3>
 <ul>
-<li>
-<p><a href="#superadmin">SuperAdmin</a></p>
+<li><strong>Registration</strong><ul>
+<li>Create a new user account.</li>
+<li>Set up user profile.</li>
+</ul>
 </li>
-<li>
-<p><a href="#admin">Admin</a>   </p>
+<li><strong>Login / Logout</strong><ul>
+<li><strong>Login</strong><ul>
+<li>Access account by entering credentials (username and password).</li>
+<li>A secure authentication token (JWT) will be issued upon successful login.</li>
+</ul>
+</li>
+<li><strong>Logout</strong><ul>
+<li>Securely log out of account to protect information.</li>
+<li>Session will be cleared.</li>
+</ul>
 </li>
 </ul>
-<p>[2] <a href="#user-page">User Page</a></p>
-<ul>
-<li><a href="#user">User</a></li>
+</li>
 </ul>
-<h2 id="admin-page"><strong>Admin Page</strong></h2>
+<h3 id="token-management">Token Management</h3>
+<ul>
+<li><strong>CSRF, Refresh Token</strong><ul>
+<li>CSRF Token:<ul>
+<li>Retrieve a CSRF token for the current session.</li>
+</ul>
+</li>
+<li>Refresh Token:<ul>
+<li>Obtain a new token using the refresh token.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <hr />
 <h3 id="superadmin">SuperAdmin</h3>
 <ul>
@@ -167,7 +190,7 @@
 </ul>
 </li>
 <li><strong>Review Management</strong><ul>
-<li>View, and delete user reviews.</li>
+<li>Delete user reviews.</li>
 <li>Respond to user feedback.</li>
 </ul>
 </li>
@@ -176,30 +199,15 @@
 <li>Track inquiry status and respond to user questions.</li>
 </ul>
 </li>
+<li><strong>Order Detail Management</strong><ul>
+<li>Retrieve User OrderDetails</li>
 </ul>
-<h2 id="user-page"><strong>User Page</strong></h2>
+</li>
+</ul>
 <hr />
 <h3 id="user">User</h3>
 <ul>
-<li><strong>Registration</strong><ul>
-<li>Create a new user account.</li>
-<li>Set up user profile.</li>
-</ul>
-</li>
-<li><strong>Login / Logout</strong><ul>
-<li>Login:<ul>
-<li>Access account by entering credentials (username and password).</li>
-<li>A secure authentication token (JWT) will be issued upon successful login.</li>
-</ul>
-</li>
-<li>Logout:<ul>
-<li>Securely log out of account to protect information.</li>
-<li>Session will be cleared.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>Mypage</strong><ul>
+<li><strong>UserDetail</strong><ul>
 <li>Manage personal information.</li>
 </ul>
 </li>
@@ -228,7 +236,7 @@
 </ul>
 </li>
 <li><strong>Inquiry</strong><ul>
-<li>Submit inquiries about products or general customer service questions.</li>
+<li>Submit inquiries about items or general customer service questions.</li>
 <li>Track the status of submitted inquiries.</li>
 </ul>
 </li>
@@ -238,8 +246,51 @@
 </ul>
 </li>
 <li><strong>Item</strong><ul>
-<li>Browse and search for products.</li>
-<li>View detailed information and reviews for each product.</li>
+<li>Subscribe to item alerts</li>
+</ul>
+</li>
+</ul>
+<h3 id="public">Public</h3>
+<hr />
+<ul>
+<li>
+<p><strong>Item</strong></p>
+<ul>
+<li>Browse and search for products<ul>
+<li>Keyword based search</li>
+<li>Filtering (category, min/max price range, average review rating)</li>
+</ul>
+</li>
+<li>View detailed information and reviews for each product</li>
+</ul>
+</li>
+<li>
+<p><strong>Review</strong></p>
+<ul>
+<li>Retrieve reviews by rating for a specific item</li>
+<li>Retrieve latest reviews for a specific item</li>
+<li>Retrieve reviews by rating and latest for a specific item</li>
+</ul>
+</li>
+<li>
+<p><strong>Inquiry</strong></p>
+<ul>
+<li>View unresolved inquiries<ul>
+<li>Item inquiries</li>
+<li>Customer inquiries</li>
+</ul>
+</li>
+<li>View resolved inquiries<ul>
+<li>Item inquiries</li>
+<li>Customer inquiries</li>
+</ul>
+</li>
+<li>View all inquiries<ul>
+<li>Item inquiries</li>
+<li>Customer inquiries</li>
+</ul>
+</li>
+<li>View inquiry details</li>
 </ul>
 </li>
 </ul></div>
@@ -324,5 +375,5 @@
 
 <!--
 MkDocs version : 1.6.0
-Build Date UTC : 2024-07-25 13:34:41.050069+00:00
+Build Date UTC : 2024-07-29 11:08:56.946951+00:00
 -->

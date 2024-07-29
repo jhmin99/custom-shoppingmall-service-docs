@@ -28,8 +28,9 @@ Headless Project consists of the following components:
 
 [5] [Public](#public)
 
-## **Authentication**
 ---
+## **Authentication**
+
 ### Account Management
 - **Registration**
     - Create a new user account.
@@ -51,7 +52,7 @@ Headless Project consists of the following components:
 ### SuperAdmin
 - **Admin Management**
     - Create, view, update, and delete admin accounts.
-
+---
 ### Admin 
 - **User Management**
     - View user accounts.
@@ -107,8 +108,8 @@ Headless Project consists of the following components:
 - **Item**
     - Subscribe to item alerts
 
-### Public
 ---
+### Public
 - **Item**
     - Browse and search for products
         - Keyword based search
