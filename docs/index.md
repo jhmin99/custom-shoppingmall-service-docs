@@ -69,9 +69,6 @@ Headless Project consists of the following components:
 - **Notice Management**
     - Post, edit, and delete public notices.
     - Ensure important information is communicated to users.
-- **Review Management**
-    - Delete user reviews.
-    - Respond to user feedback.
 - **Inquiry Management**
     - Manage customer and product inquiries.
     - Track inquiry status and respond to user questions.
@@ -98,6 +95,7 @@ Headless Project consists of the following components:
 - **Inquiry**
     - Submit inquiries about items or general customer service questions.
     - Track the status of submitted inquiries.
+    - Receive replies from staff and respond to those replies.
 - **Order**
     - Place new orders and track existing order status.
     - View order details.
